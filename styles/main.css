@@ -22,6 +22,10 @@
     font-family: var(--primary-font);
 }
 
+html {
+    overflow: hidden;
+}
+
 html,
 body {
     scroll-behavior: smooth;
@@ -145,12 +149,11 @@ body>.overlay {
     background-color: #00000080;
 }
 
-html.viewing-hamburger-menu {
-    overflow: hidden;
+html.hamburger-menu-is-hidden {
+    overflow-y: auto;
 }
 
-html.viewing-custom-select-options .overlay,
-html.viewing-hamburger-menu .overlay {
+html.viewing-custom-select-options .overlay {
     opacity       : 1;
     pointer-events: all;
 }
@@ -193,21 +196,27 @@ html.viewing-hamburger-menu .overlay {
 }
 
 header {
-    height    : var(--nav-height);
-    position  : fixed;
-    top       : 0;
-    z-index   : 1000;
-    width     : 100%;
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-    background: linear-gradient(to bottom, #000000a6 0%, #0000 100%);
+    height  : var(--nav-height);
+    position: fixed;
+    top     : 0;
+    z-index : 1000;
+    width   : 100%;
+}
+
+header div.inner {
+    background    : -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+    background    : linear-gradient(to bottom, #000000a6 0%, #0000 100%);
+    flex-direction: row;
+    height        : 100%;
+    max-width     : 100%;
+    padding       : var(--general-padding) calc(var(--general-padding) + 10px);
 }
 
 #home-img {
     display: none;
 }
 
-header.active #home-img,
-html.viewing-hamburger-menu #home-img {
+header.active #home-img {
     display: block;
 }
 
@@ -215,25 +224,17 @@ header a {
     transition: none;
 }
 
-header.active,
-html.viewing-hamburger-menu header {
+header.active div.inner {
     background: var(--white);
     color     : var(--black);
 }
 
-header.active a,
-html.viewing-hamburger-menu header a {
+header.active a {
     color: var(--black) !important;
 }
 
-header.active a:hover,
-html.viewing-hamburger-menu header a:hover {
+header.active a:hover {
     text-decoration: underline;
-}
-
-header div.inner {
-    flex-direction: row;
-    height        : 100%;
 }
 
 header div.inner>a,
@@ -311,12 +312,16 @@ html.viewing-hamburger-menu .hamburger-line.three {
     color           : var(--secondary);
     padding         : 0 48px;
     height          : 0;
-    top             : 0;
+    top             : 50vh;
+    bottom          : 50vh;
     left            : 0;
-    transition      : height ease 0.75s, padding ease 0.75s;
-    z-index         : 100;
     overflow        : hidden;
     z-index         : -1;
+    transition      :
+        height ease 0.75s,
+        padding ease 0.75s,
+        top ease 0.75s,
+        bottom ease 0.75s;
 }
 
 #close-hamburger {
@@ -331,10 +336,13 @@ html.viewing-hamburger-menu .hamburger-line.three {
 }
 
 #hamburger-nav nav {
+    display       : flex;
     flex-direction: column;
     align-items   : flex-start;
     gap           : 24px;
     color         : var(--white);
+    opacity       : 0;
+    transition    : opacity ease 0.75s;
 }
 
 #hamburger-nav nav a {
@@ -346,8 +354,15 @@ html.viewing-hamburger-menu .hamburger-line.three {
 }
 
 html.viewing-hamburger-menu #hamburger-nav {
+    top    : 0;
+    bottom : 0;
+    opacity: 1;
     height : 100vh;
-    padding: var(--nav-height) 48px 48px;
+    padding: calc(var(--nav-height) + 60px) 48px 48px;
+}
+
+html.viewing-hamburger-menu #hamburger-nav nav {
+    opacity: 1;
 }
 
 #intro-section {

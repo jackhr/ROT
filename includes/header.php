@@ -26,7 +26,7 @@ $load_swal = !!$swal_load_lookup[$page];
 ?>
 
 <!DOCTYPE html>
-<html>
+<html class="hamburger-menu-is-hidden">
 
 <head>
     <meta charset="utf-8">
@@ -85,7 +85,6 @@ $load_swal = !!$swal_load_lookup[$page];
 <body id="<?php echo $page ?>-page">
     <header>
         <div class="inner">
-
             <a href="/">
                 <img id="home-img" src="/assets/images/logo.png" alt="Website logo">
             </a>
@@ -97,17 +96,16 @@ $load_swal = !!$swal_load_lookup[$page];
                     <div class="hamburger-line three"></div>
                 </div>
             </div>
+        </div>
 
-            <div id="hamburger-nav">
-                <nav>
-                    <a href="/">Home</a>
-                    <a href="/cafe/">Cafe</a>
-                    <a href="/cottages/">Cottages</a>
-                    <a href="/events/">Events</a>
-                    <a href="/about/">About</a>
-                    <a href="/contact/">Contact</a>
-                </nav>
-            </div>
-
+        <div id="hamburger-nav">
+            <nav>
+                <a href="/">Home</a>
+                <a href="/cafe/">Cafe</a>
+                <a href="/cottages/">Cottages</a>
+                <a href="/events/">Events</a>
+                <a href="/about/">About</a>
+                <a href="/contact/">Contact</a>
+            </nav>
         </div>
     </header>
