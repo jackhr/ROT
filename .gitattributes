@@ -1,3 +1,8 @@
 assets/videos/vehicles/index-video.mp4 filter=lfs diff=lfs merge=lfs -text
 assets/images/video-posters/index-poster.jpg filter=lfs diff=lfs merge=lfs -text
 assets/images/logo.png filter=lfs diff=lfs merge=lfs -text
+assets/images/index-sections/art-studio.avif filter=lfs diff=lfs merge=lfs -text
+assets/images/index-sections/cafe.avif filter=lfs diff=lfs merge=lfs -text
+assets/images/index-sections/cottages.avif filter=lfs diff=lfs merge=lfs -text
+assets/images/index-sections/events.avif filter=lfs diff=lfs merge=lfs -text
+assets/images/index-sections/meditation-center.avif filter=lfs diff=lfs merge=lfs -text

@@ -87,8 +87,9 @@ $load_swal = !!$swal_load_lookup[$page];
 <body id="<?php echo $page ?>-page">
     <header>
         <div class="inner">
-            <a href="/">
-                <img id="home-img" src="/assets/images/logo.png" alt="Website logo">
+            <a href="/" id="home-img">
+                Rotten Hill
+                <!-- <img id="home-img" src="/assets/images/logo.png" alt="Website logo"> -->
             </a>
 
             <div id="hamburger-button">
@@ -106,6 +107,8 @@ $load_swal = !!$swal_load_lookup[$page];
                 <a href="/cafe/">Cafe</a>
                 <a href="/cottages/">Cottages</a>
                 <a href="/events/">Events</a>
+                <a href="/art-studio/">Art Studio</a>
+                <a href="/meditation-center/">Meditation Center</a>
                 <a href="/about/">About</a>
                 <a href="/contact/">Contact</a>
             </nav>

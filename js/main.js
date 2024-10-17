@@ -28,5 +28,5 @@ $("#hamburger-button").on('click', function () {
 })
 
 $(document).ready(function () {
-    setTimeout(() => $("#intro-section h1").removeClass("hidden"), 2000);
+    setTimeout(() => $("#intro-section-title").fadeToggle(2000), 2000);
 })
