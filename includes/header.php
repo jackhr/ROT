@@ -9,6 +9,8 @@ $base_title = $company_name;
 $title = isset($title_override) ? $title_override : (isset($title_suffix) ? $base_title .= " | " . $title_suffix : $title);
 
 $page_lookup = [
+    "art-studio" => "../",
+    "meditation-center" => "../",
     "cafe" => "../",
     "cottages" => "../",
     "events" => "../",
