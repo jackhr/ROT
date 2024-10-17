@@ -517,6 +517,8 @@ footer .contact-link {
 }
 
 div#copyright {
+    display    : block;
+    text-align : center;
     font-size  : 13px;
     color      : var(--grey-light);
     padding-top: 20px;
