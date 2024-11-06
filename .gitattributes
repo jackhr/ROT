@@ -37,6 +37,11 @@ assets/images/aerials/ROT-Day1-Air3v2-2409JMR80814.jpg filter=lfs diff=lfs merge
 assets/images/aerials/ROT-Day1-Air4v2-2409JMR80114.jpg filter=lfs diff=lfs merge=lfs -text
 assets/images/aerials/ROT-Day1-Air3v2-2409JMR80854.jpg filter=lfs diff=lfs merge=lfs -text
 assets/images/aerials/ROT-Day1-Air4v2-2409JMR80937.jpg filter=lfs diff=lfs merge=lfs -text
+assets/images/art-studio/ROT-Lifestyle-Fauna-2410JMR50076.jpg filter=lfs diff=lfs merge=lfs -text
+assets/images/art-studio/ROT-Lifestyle-Textures-2410JMR48867.jpg filter=lfs diff=lfs merge=lfs -text
+assets/images/art-studio/ROT-Lifestyle-Textures-2410JMR54920.jpg filter=lfs diff=lfs merge=lfs -text
+assets/images/art-studio/ROT-Lifestyle-Textures-2410JMR45764.jpg filter=lfs diff=lfs merge=lfs -text
+assets/images/art-studio/ROT-Lifestyle-Textures-2410JMR49280.jpg filter=lfs diff=lfs merge=lfs -text
 assets/images/cafe/ROT-Studio-CafeVerandah-2410JMR48870.jpg filter=lfs diff=lfs merge=lfs -text
 assets/images/cafe/ROT-Studio-CafeVerandah-2410JMR55181.jpg filter=lfs diff=lfs merge=lfs -text
 assets/images/cafe/ROT-Studio-Exterior-2410JMR48653.jpg filter=lfs diff=lfs merge=lfs -text
@@ -84,6 +89,10 @@ assets/images/cottages/tamarind/ROT-Tamarind-BedArea-2410JMR26274.jpg filter=lfs
 assets/images/cottages/tamarind/ROT-Tamarind-Kitchen-2410JMR26281.jpg filter=lfs diff=lfs merge=lfs -text
 assets/images/cottages/tamarind/ROT-Tamarind-BedArea-2410JMR26524.jpg filter=lfs diff=lfs merge=lfs -text
 assets/images/cottages/tamarind/ROT-Tamarind-Kitchen-2410JMR26321.jpg filter=lfs diff=lfs merge=lfs -text
+assets/images/events/ROT-Day1-Air3v2-2409JMR80748.jpg filter=lfs diff=lfs merge=lfs -text
+assets/images/events/ROT-Day1-Air4v2-2409JMR80922.jpg filter=lfs diff=lfs merge=lfs -text
+assets/images/events/ROT-Day1-Air4v2-2409JMR80031.jpg filter=lfs diff=lfs merge=lfs -text
+assets/images/events/ROT-Day1-Air4v2-2409JMR80937.jpg filter=lfs diff=lfs merge=lfs -text
 assets/images/meditation-center/ROT-Day1-2409JMR25431.jpg filter=lfs diff=lfs merge=lfs -text
 assets/images/meditation-center/ROT-Day1-2409JMR25545.jpg filter=lfs diff=lfs merge=lfs -text
 assets/images/meditation-center/ROT-Day1-2409JMR25692.jpg filter=lfs diff=lfs merge=lfs -text
