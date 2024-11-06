@@ -23,7 +23,7 @@ $swal_load_lookup = [];
 $style_prefix = $page_lookup[$page] ?? "";
 $canonical_dir = $page === "index" ? "" : $page . "/";
 $canonical_url = "https://$www_domain/{$canonical_dir}";
-$load_swal = !!$swal_load_lookup[$page];
+$load_swal = isset($swal_load_lookup[$page]);
 
 ?>
 
@@ -62,7 +62,17 @@ $load_swal = !!$swal_load_lookup[$page];
     <!-- END PLUGINS -->
 
     <!-- BEGIN PLUGINS -->
-    <script src="/plugins/jquery/jquery-3.7.1.min.js" defer></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/plugins/Flickity/css/flickity.min.css" media="screen">
+    <link rel="stylesheet" href="/plugins/Flickity/css/flickity-fade.css" media="screen">
+    <link rel="stylesheet" href="/plugins/Flickity/css/fullscreen.css" media="screen">
+
+    <!-- JavaScript -->
+    <script src="/plugins/jquery/jquery-3.7.1.min.js"></script>
+    <script src="/plugins/Flickity/js/flickity.pkgd.min.js"></script>
+    <script src="/plugins/Flickity/js/flickity-fade.js"></script>
+    <script src="/plugins/Flickity/js/fullscreen.js"></script>
+    <script src="/plugins/Flickity/js/flickity-imagesloaded.js"></script>
     <?php if ($load_swal) { ?>
         <link type="text/css" rel="stylesheet" href="/plugins/sweetalert2/styles/sweetalert2.min.css">
         <script src="/plugins/sweetalert2/js/sweetalert2.all.min.js" defer></script>
@@ -87,10 +97,7 @@ $load_swal = !!$swal_load_lookup[$page];
 <body id="<?php echo $page ?>-page">
     <header>
         <div class="inner">
-            <a href="/" id="home-img">
-                Rotten Hill
-                <!-- <img id="home-img" src="/assets/images/logo.png" alt="Website logo"> -->
-            </a>
+            <a href="/" id="home-img">Rotten Hill</a>
 
             <div id="hamburger-button">
                 <div id="hamburger-icon">
