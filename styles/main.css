@@ -431,7 +431,7 @@ html.viewing-hamburger-menu #hamburger-nav nav {
     background: linear-gradient(to right, transparent, var(--grey-light), transparent);
     width     : 100%;
     height    : 1px;
-    margin    : 24px 0;
+    margin    : 48px 0 72px;
 }
 
 section:has(.index-desc-wrapper):nth-child(2n) {
@@ -673,6 +673,10 @@ section:has(.index-desc-wrapper):nth-child(2n) .flickity-page-dots .dot {
     #intro-section-title h1 {
         font-size: 64px;
     }
+
+    .section-divider {
+        margin: 24px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -702,6 +706,10 @@ section:has(.index-desc-wrapper):nth-child(2n) .flickity-page-dots .dot {
 
     .index-desc-wrapper {
         flex-direction: column !important;
+    }
+
+    .section-divider {
+        margin: 12px;
     }
 
     footer div.inner>div:first-child {

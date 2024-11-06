@@ -69,24 +69,20 @@ include_once 'includes/header.php';
         <div class="section-divider"></div>
         <div class="main-carousel">
             <div class="carousel-cell">
-                <span class="img-title">Meditation Center</span>
-                <img src="assets/images/meditation-center/ROT-Day1-2409JMR25431.jpg" alt="Meditation Center">
+                <span class="img-title">Aerial View</span>
+                <img src="assets/images/events/ROT-Day1-Air4v2-2409JMR80937.jpg" alt="Aerial View">
             </div>
             <div class="carousel-cell">
-                <span class="img-title">Meditation Center</span>
-                <img src="assets/images/meditation-center/ROT-Day1-2409JMR25525.jpg" alt="Meditation Center">
+                <span class="img-title">Aerial View</span>
+                <img src="assets/images/events/ROT-Day1-Air4v2-2409JMR80922.jpg" alt="Aerial View">
             </div>
             <div class="carousel-cell">
-                <span class="img-title">Meditation Center</span>
-                <img src="assets/images/meditation-center/ROT-Day1-2409JMR25545.jpg" alt="Meditation Center">
+                <span class="img-title">Aerial View</span>
+                <img src="assets/images/events/ROT-Day1-Air4v2-2409JMR80031.jpg" alt="Aerial View">
             </div>
             <div class="carousel-cell">
-                <span class="img-title">Meditation Center</span>
-                <img src="assets/images/meditation-center/ROT-Day1-2409JMR25650.jpg" alt="Meditation Center">
-            </div>
-            <div class="carousel-cell">
-                <span class="img-title">Meditation Center</span>
-                <img src="assets/images/meditation-center/ROT-Day1-2409JMR25692.jpg" alt="Meditation Center">
+                <span class="img-title">Aerial View</span>
+                <img src="assets/images/events/ROT-Day1-Air3v2-2409JMR80748.jpg" alt="Aerial View">
             </div>
         </div>
     </div>
@@ -164,10 +160,25 @@ include_once 'includes/header.php';
     <div class="inner">
         <h2>Events</h2>
         <div class="index-desc-wrapper">
-            <div class="index-desc-img-wrapper">
-                <img src="assets/images/index-sections/events.avif" alt="Events">
-            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores commodi assumenda porro omnis delectus tempora suscipit reiciendis, beatae incidunt repellendus, provident, debitis rem tenetur enim nihil nesciunt amet autem voluptas.</p>
+        </div>
+        <div class="section-divider"></div>
+        <div class="main-carousel">
+            <div class="carousel-cell">
+                <img src="assets/images/art-studio/ROT-Lifestyle-Textures-2410JMR49280.jpg" alt="Cafe" title="Cafe">
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/images/art-studio/ROT-Lifestyle-Textures-2410JMR48867.jpg" alt="Cafe verandah" title="Cafe verandah">
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/images/art-studio/ROT-Lifestyle-Fauna-2410JMR50076.jpg" alt="Cafe verandah" title="Cafe verandah">
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/images/art-studio/ROT-Lifestyle-Textures-2410JMR54920.jpg" alt="Cafe Verandah" title="Cafe verandah">
+            </div>
+            <div class="carousel-cell">
+                <img src="assets/images/art-studio/ROT-Lifestyle-Textures-2410JMR45764.jpg" alt="Cafe exterior" title="Cafe exterior">
+            </div>
         </div>
     </div>
 </section>
