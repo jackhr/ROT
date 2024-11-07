@@ -34,7 +34,7 @@ include_once 'includes/header.php';
         <div class="carousel-container">
             <div class="carousel-header">
                 <h3>Meditation Center</h3>
-                <a href="/meditation-center/">
+                <a class="chevron-link" href="/meditation-center/">
                     <span>See more</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
                         <path d="m9 18 6-6-6-6" />
@@ -42,26 +42,66 @@ include_once 'includes/header.php';
                 </a>
             </div>
             <div id="meditation-center-carousel" class="carousel still right">
-                <div class="carousel-cell">
+                <a class="carousel-cell" href="/meditation-center/">
                     <span class="img-title">Meditation Center</span>
                     <img src="assets/images/meditation-center/ROT-Day1-2409JMR25431.jpg" alt="Meditation Center">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/meditation-center/">
                     <span class="img-title">Meditation Center</span>
                     <img src="assets/images/meditation-center/ROT-Day1-2409JMR25525.jpg" alt="Meditation Center">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/meditation-center/">
                     <span class="img-title">Meditation Center</span>
                     <img src="assets/images/meditation-center/ROT-Day1-2409JMR25545.jpg" alt="Meditation Center">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/meditation-center/">
                     <span class="img-title">Meditation Center</span>
                     <img src="assets/images/meditation-center/ROT-Day1-2409JMR25650.jpg" alt="Meditation Center">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/meditation-center/">
                     <span class="img-title">Meditation Center</span>
                     <img src="assets/images/meditation-center/ROT-Day1-2409JMR25692.jpg" alt="Meditation Center">
-                </div>
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -77,7 +117,7 @@ include_once 'includes/header.php';
         <div class="carousel-container">
             <div class="carousel-header">
                 <h3>Art Studio</h3>
-                <a href="/art-studio/">
+                <a class="chevron-link" href="/art-studio/">
                     <span>See more</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
                         <path d="m9 18 6-6-6-6" />
@@ -85,22 +125,54 @@ include_once 'includes/header.php';
                 </a>
             </div>
             <div class="carousel still left">
-                <div class="carousel-cell">
+                <a class="carousel-cell" href="/art-studio/">
                     <span class="img-title">Aerial View</span>
                     <img src="assets/images/events/ROT-Day1-Air4v2-2409JMR80937.jpg" alt="Aerial View">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/art-studio/">
                     <span class="img-title">Aerial View</span>
                     <img src="assets/images/events/ROT-Day1-Air4v2-2409JMR80922.jpg" alt="Aerial View">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/art-studio/">
                     <span class="img-title">Aerial View</span>
                     <img src="assets/images/events/ROT-Day1-Air4v2-2409JMR80031.jpg" alt="Aerial View">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/art-studio/">
                     <span class="img-title">Aerial View</span>
                     <img src="assets/images/events/ROT-Day1-Air3v2-2409JMR80748.jpg" alt="Aerial View">
-                </div>
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -116,7 +188,7 @@ include_once 'includes/header.php';
         <div class="carousel-container">
             <div class="carousel-header">
                 <h3>Cottages</h3>
-                <a href="/cottages/">
+                <a class="chevron-link" href="/cottages/">
                     <span>See more</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
                         <path d="m9 18 6-6-6-6" />
@@ -124,30 +196,78 @@ include_once 'includes/header.php';
                 </a>
             </div>
             <div class="carousel still right">
-                <div class="carousel-cell">
+                <a class="carousel-cell" href="/cottages/">
                     <span class="img-title">Logwood Bed Area</span>
                     <img src="assets/images/cottages/logwood/ROT-Logwood-BedArea-2410JMR45834.jpg" alt="Logwood bed area" title="Logwood bed area">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/cottages/">
                     <span class="img-title">Sugarloaf Verandah</span>
                     <img src="assets/images/cottages/sugarloaf/ROT-SugarLoaf-Verandah-2410JMR6098.jpg" alt="Sugarloaf verandah" title="Sugarloaf verandah">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/cottages/">
                     <span class="img-title">Tamarind Bed Area</span>
                     <img src="assets/images/cottages/tamarind/ROT-Tamarind-BedArea-2410JMR26632.jpg" alt="Tamarind bed area" title="Tamarind bed area">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/cottages/">
                     <span class="img-title">Logwood Exterior</span>
                     <img src="assets/images/cottages/logwood/ROT-Logwood-Exterior-2410JMR26750.jpg" alt="Logwood exterior" title="Logwood exterior">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/cottages/">
                     <span class="img-title">Sugarloaf Bath</span>
                     <img src="assets/images/cottages/sugarloaf/ROT-SugarLoaf-Bath-2410JMR6202.jpg" alt="Sugarloaf bath" title="Sugarloaf bath">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/cottages/">
                     <span class="img-title">Tamarind Verandah</span>
                     <img src="assets/images/cottages/tamarind/ROT-Tamarind-Verandah-2410JMR26237.jpg" alt="Tamarind Verandah" title="Tamarind Verandah">
-                </div>
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -163,7 +283,7 @@ include_once 'includes/header.php';
         <div class="carousel-container">
             <div class="carousel-header">
                 <h3>Cafe</h3>
-                <a href="/cafe/">
+                <a class="chevron-link" href="/cafe/">
                     <span>See more</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
                         <path d="m9 18 6-6-6-6" />
@@ -171,26 +291,66 @@ include_once 'includes/header.php';
                 </a>
             </div>
             <div class="carousel still left">
-                <div class="carousel-cell">
+                <a class="carousel-cell" href="/cafe/">
                     <span class="img-title">Cafe Verandah</span>
                     <img src="assets/images/cafe/ROT-Studio-CafeVerandah-2410JMR48872.jpg" alt="Cafe verandah" title="Cafe verandah">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/cafe/">
                     <span class="img-title">Cafe Verandah</span>
                     <img src="assets/images/cafe/ROT-Studio-CafeVerandah-2410JMR55181.jpg" alt="Cafe verandah" title="Cafe verandah">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/cafe/">
                     <span class="img-title">Cafe Verandah</span>
                     <img src="assets/images/cafe/ROT-Studio-CafeVerandah-2410JMR55355.jpg" alt="Cafe verandah" title="Cafe verandah">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/cafe/">
                     <span class="img-title">Cafe Exterior</span>
                     <img src="assets/images/cafe/ROT-Studio-Exterior-2410JMR48645.jpg" alt="Cafe exterior" title="Cafe exterior">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/cafe/">
                     <span class="img-title">Cafe Exterior</span>
                     <img src="assets/images/cafe/ROT-Studio-Exterior-2410JMR48653.jpg" alt="Cafe exterior" title="Cafe exterior">
-                </div>
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -206,7 +366,7 @@ include_once 'includes/header.php';
         <div class="carousel-container">
             <div class="carousel-header">
                 <h3>Events</h3>
-                <a href="/events/">
+                <a class="chevron-link" href="/events/">
                     <span>See more</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
                         <path d="m9 18 6-6-6-6" />
@@ -214,21 +374,61 @@ include_once 'includes/header.php';
                 </a>
             </div>
             <div class="carousel still right">
-                <div class="carousel-cell">
+                <a class="carousel-cell" href="/events/">
                     <img src="assets/images/art-studio/ROT-Lifestyle-Textures-2410JMR49280.jpg" alt="Cafe" title="Cafe">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/events/">
                     <img src="assets/images/art-studio/ROT-Lifestyle-Textures-2410JMR48867.jpg" alt="Cafe verandah" title="Cafe verandah">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/events/">
                     <img src="assets/images/art-studio/ROT-Lifestyle-Fauna-2410JMR50076.jpg" alt="Cafe verandah" title="Cafe verandah">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/events/">
                     <img src="assets/images/art-studio/ROT-Lifestyle-Textures-2410JMR54920.jpg" alt="Cafe Verandah" title="Cafe verandah">
-                </div>
-                <div class="carousel-cell">
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+                <a class="carousel-cell" href="/events/">
                     <img src="assets/images/art-studio/ROT-Lifestyle-Textures-2410JMR45764.jpg" alt="Cafe exterior" title="Cafe exterior">
-                </div>
+                    <div class="carousel-cell-overlay">
+                        <div class="chevron-link">
+                            <span>See more</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
+                                <path d="m9 18 6-6-6-6" />
+                            </svg>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
