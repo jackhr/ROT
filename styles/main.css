@@ -124,6 +124,16 @@ div.inner {
     text-align    : center;
 }
 
+.still-carousel-section div.inner {
+    max-width: 100%;
+    padding  : var(--general-padding) 0;
+}
+
+.still-carousel-section .index-desc-wrapper {
+    max-width: var(--max-width);
+    padding  : 32px var(--general-padding);
+}
+
 section h2 {
     font-size: 32px;
 }
@@ -459,7 +469,7 @@ section:has(.index-desc-wrapper):nth-child(2n) {
 }
 
 .index-desc-wrapper p {
-    font-size: 20px;
+    font-size: 22px;
     height   : fit-content;
     margin   : auto;
 }
@@ -582,9 +592,50 @@ table tr td:last-child {
     text-align: right;
 }
 
-.main-carousel {
+.carousel-header {
+    display        : flex;
+    align-items    : center;
+    padding        : 0 clamp(20px, 6.25vw, 80px);
+    margin-bottom  : 24px;
+    justify-content: space-between;
+}
+
+.carousel-header h3 {
+    margin   : 0;
+    font-size: 24px;
+}
+
+.carousel-header a {
+    color        : var(--black);
+    font-weight  : 600;
+    font-size    : 20px;
+    display      : flex;
+    align-items  : center;
+    border-bottom: solid 1px var(--black);
+}
+
+.carousel-header a svg {
+    width: 24px;
+}
+
+section:has(.index-desc-wrapper):nth-child(2n) .carousel-header a {
+    color       : var(--white);
+    border-color: var(--white);
+}
+
+.carousel.standard {
     width : 500px;
     margin: auto;
+}
+
+.carousel.still {
+    width        : 100%;
+    padding-left : clamp(20px, 6.25vw, 80px);
+    margin-bottom: 72px;
+}
+
+.carousel.still.left {
+    padding: 0 clamp(20px, 6.25vw, 80px) 0 0;
 }
 
 .carousel-cell {
@@ -596,7 +647,13 @@ table tr td:last-child {
     margin-right   : 200px;
 }
 
-.main-carousel.is-fullscreen .carousel-cell {
+.carousel.still .carousel-cell {
+    width       : 25%;
+    height      : 29.5vw;
+    margin-right: 20px;
+}
+
+.carousel.is-fullscreen .carousel-cell {
     height: 100%;
     width : 100%;
 }
@@ -613,16 +670,16 @@ table tr td:last-child {
     pointer-events : none;
 }
 
-.main-carousel.is-fade .carousel-cell span.img-title {
+.carousel.is-fade .carousel-cell span.img-title {
     transition: opacity 0.2s;
 }
 
-.main-carousel.is-fullscreen .carousel-cell span.img-title {
+.carousel.is-fullscreen .carousel-cell span.img-title {
     opacity       : 1;
     pointer-events: all;
 }
 
-.main-carousel.is-fade.is-fullscreen .carousel-cell:not(.is-selected) span.img-title {
+.carousel.is-fade.is-fullscreen .carousel-cell:not(.is-selected) span.img-title {
     opacity       : 0;
     pointer-events: none;
 }
@@ -634,8 +691,12 @@ table tr td:last-child {
     object-position: center;
 }
 
-.main-carousel.is-fullscreen .carousel-cell img {
+.carousel.is-fullscreen .carousel-cell img {
     object-fit: contain;
+}
+
+.carousel.still .carousel-cell img {
+    object-fit: cover;
 }
 
 /* Use this only if adaptiveHeight is set to true
@@ -670,13 +731,13 @@ table tr td:last-child {
     top  : -36px !important;
 }
 
-.main-carousel.is-fullscreen .flickity-fullscreen-button.flickity-fullscreen-button-view,
-.main-carousel .flickity-fullscreen-button.flickity-fullscreen-button-exit {
+.carousel.is-fullscreen .flickity-fullscreen-button.flickity-fullscreen-button-view,
+.carousel .flickity-fullscreen-button.flickity-fullscreen-button-exit {
     display: none !important;
 }
 
-.main-carousel.is-fullscreen .flickity-fullscreen-button.flickity-fullscreen-button-exit,
-.main-carousel .flickity-fullscreen-button.flickity-fullscreen-button-view {
+.carousel.is-fullscreen .flickity-fullscreen-button.flickity-fullscreen-button-exit,
+.carousel .flickity-fullscreen-button.flickity-fullscreen-button-view {
     display: flex !important;
 }
 
@@ -696,17 +757,43 @@ table tr td:last-child {
 }
 
 section:has(.index-desc-wrapper):nth-child(2n) .flickity-button,
-.main-carousel.is-fullscreen .flickity-button {
+.carousel.is-fullscreen .flickity-button {
     background-color: var(--white) !important;
 }
 
 section:has(.index-desc-wrapper):nth-child(2n) .flickity-button-icon,
-.main-carousel.is-fullscreen .flickity-button-icon {
+.carousel.is-fullscreen .flickity-button-icon {
     fill: var(--black) !important;
 }
 
 section:has(.index-desc-wrapper):nth-child(2n) .flickity-page-dots .dot {
     background: #dadada;
+}
+
+.carousel.still.right .flickity-prev-next-button.next {
+    right : clamp(20px, 6.25vw, 80px) !important;
+    top   : unset !important;
+    bottom: -100px !important;
+}
+
+.carousel.still.right .flickity-prev-next-button.previous {
+    right : calc(clamp(20px, 6.25vw, 80px) + 54px) !important;
+    top   : unset !important;
+    bottom: -100px !important;
+    left  : unset !important;
+}
+
+.carousel.still.left .flickity-prev-next-button.next {
+    left  : calc(clamp(20px, 6.25vw, 80px) + 54px) !important;
+    top   : unset !important;
+    bottom: -100px !important;
+    right : unset !important;
+}
+
+.carousel.still.left .flickity-prev-next-button.previous {
+    top   : unset !important;
+    bottom: -100px !important;
+    left  : clamp(20px, 6.25vw, 80px) !important;
 }
 
 @media screen and (max-width: 991px) {

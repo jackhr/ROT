@@ -1,5 +1,29 @@
 const STATE = {
-    togglingHamburger: false
+    togglingHamburger: false,
+    flickityDefaultOpts: {
+        standard: {
+            // fade: true,
+            wrapAround: true,
+            draggable: true,
+            autoPlay: 3000,
+            fullscreen: true,
+            lazyLoad: 1,
+            dragThreshold: 10,
+            // selectedAttraction: 0.2, // default 0.025. Higher attraction makes the slider move faster.
+            // friction: 0.4, // default 0.28. Higher friction makes the slider feel stickier and less bouncy. Lower friction makes the slider feel looser and more wobbly
+            imagesLoaded: true, // re-positions cells once their images have loaded.
+            cellSelector: '.carousel-cell',
+            // adaptiveHeight: true
+        },
+        still: {
+            contain: true,
+            pageDots: false,
+            autoPlay: false,
+            fullscreen: false,
+            arrowShape: "M100 53.6923L13.4887 53.6923L50.565 92.4615L45.904 98L0 50L45.904 2L50.565 7.53846L13.4887 46.3077L100 46.3077V53.6923Z",
+        }
+    },
+
 };
 
 $(window).on('scroll', function () {
@@ -31,20 +55,16 @@ $(document).ready(function () {
     setTimeout(() => $("#intro-section-title").fadeToggle(2000), 2000);
 });
 
-$(".main-carousel").flickity({
-    // fade: true,
-    wrapAround: true,
-    // contain: true,
-    draggable: true,
-    autoPlay: 3000,
-    fullscreen: true,
-    lazyLoad: 1,
-    dragThreshold: 10,
-    // selectedAttraction: 0.2, // default 0.025. Higher attraction makes the slider move faster.
-    // friction: 0.4, // default 0.28. Higher friction makes the slider feel stickier and less bouncy. Lower friction makes the slider feel looser and more wobbly
-    imagesLoaded: true, // re-positions cells once their images have loaded.
-    cellSelector: '.carousel-cell',
-    // adaptiveHeight: true
+$(".carousel.still.left").flickity({
+    ...STATE.flickityDefaultOpts.standard,
+    ...STATE.flickityDefaultOpts.still,
+    cellAlign: "right",
+});
+
+$(".carousel.still.right").flickity({
+    ...STATE.flickityDefaultOpts.standard,
+    ...STATE.flickityDefaultOpts.still,
+    cellAlign: "left",
 });
 
 
