@@ -32,16 +32,16 @@ $(document).ready(function () {
 });
 
 $(".main-carousel").flickity({
-    fade: true,
+    // fade: true,
     wrapAround: true,
-    contain: true,
+    // contain: true,
     draggable: true,
     autoPlay: 3000,
     fullscreen: true,
     lazyLoad: 1,
     dragThreshold: 10,
     // selectedAttraction: 0.2, // default 0.025. Higher attraction makes the slider move faster.
-    // friction: 0.8, // default 0.28. Higher friction makes the slider feel stickier and less bouncy. Lower friction makes the slider feel looser and more wobbly
+    // friction: 0.4, // default 0.28. Higher friction makes the slider feel stickier and less bouncy. Lower friction makes the slider feel looser and more wobbly
     imagesLoaded: true, // re-positions cells once their images have loaded.
     cellSelector: '.carousel-cell',
     // adaptiveHeight: true

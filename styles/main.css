@@ -422,8 +422,10 @@ html.viewing-hamburger-menu #hamburger-nav nav {
 
 #intro-section-title h1,
 #intro-section-title h2 {
-    margin     : 0;
-    text-shadow: 0 0 12px rgba(var(--black-rgb-vals), 0.5);
+    text-transform: capitalize;
+    font-weight   : normal;
+    margin        : 0;
+    text-shadow   : 0 0 12px rgba(var(--black-rgb-vals), 0.5);
 }
 
 .index-desc-wrapper {
@@ -581,14 +583,17 @@ table tr td:last-child {
 }
 
 .main-carousel {
-    width: 100%;
+    width : 500px;
+    margin: auto;
 }
 
 .carousel-cell {
-    width          : 50%;
+    width          : 100%;
+    height         : 400px;
     display        : flex;
     align-items    : center;
     justify-content: center;
+    margin-right   : 200px;
 }
 
 .main-carousel.is-fullscreen .carousel-cell {
@@ -606,12 +611,20 @@ table tr td:last-child {
     text-decoration: underline;
     opacity        : 0;
     pointer-events : none;
-    transition     : opacity 0.2s;
 }
 
-.main-carousel.is-fullscreen .carousel-cell.is-selected span.img-title {
+.main-carousel.is-fade .carousel-cell span.img-title {
+    transition: opacity 0.2s;
+}
+
+.main-carousel.is-fullscreen .carousel-cell span.img-title {
     opacity       : 1;
     pointer-events: all;
+}
+
+.main-carousel.is-fade.is-fullscreen .carousel-cell:not(.is-selected) span.img-title {
+    opacity       : 0;
+    pointer-events: none;
 }
 
 .carousel-cell img {
@@ -619,6 +632,10 @@ table tr td:last-child {
     height         : 100%;
     object-fit     : contain;
     object-position: center;
+}
+
+.main-carousel.is-fullscreen .carousel-cell img {
+    object-fit: contain;
 }
 
 /* Use this only if adaptiveHeight is set to true
@@ -630,6 +647,44 @@ table tr td:last-child {
     width        : 30px;
     height       : 30px;
     border-radius: 30px;
+}
+
+.flickity-prev-next-button.next {
+    right: -56px !important;
+}
+
+.flickity-prev-next-button.previous {
+    left: -56px !important;
+}
+
+.flickity-fullscreen-button {
+    width          : 36px !important;
+    height         : 36px !important;
+    display        : flex !important;
+    align-items    : center !important;
+    justify-content: center !important;
+}
+
+.flickity-fullscreen-button.flickity-fullscreen-button-view {
+    right: -36px !important;
+    top  : -36px !important;
+}
+
+.main-carousel.is-fullscreen .flickity-fullscreen-button.flickity-fullscreen-button-view,
+.main-carousel .flickity-fullscreen-button.flickity-fullscreen-button-exit {
+    display: none !important;
+}
+
+.main-carousel.is-fullscreen .flickity-fullscreen-button.flickity-fullscreen-button-exit,
+.main-carousel .flickity-fullscreen-button.flickity-fullscreen-button-view {
+    display: flex !important;
+}
+
+.flickity-fullscreen-button>svg {
+    top   : unset !important;
+    left  : unset !important;
+    width : 20px !important;
+    height: 20px !important;
 }
 
 .flickity-button {
