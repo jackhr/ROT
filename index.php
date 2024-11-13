@@ -116,14 +116,14 @@ include_once 'includes/header.php';
             <div>
                 <div>
                     <img src="/assets/images/cottages/logwood/ROT-Logwood-BedArea-2410JMR45834.jpg">
-                    <span>Logwood Villa</span>
+                    <span>Logwood Cottage</span>
                 </div>
                 <p>Allow your mind to wind down, and your feet to rest up.</p>
             </div>
             <div>
                 <div>
                     <img src="/assets/images/cottages/logwood/ROT-Logwood-Verandah-2410JMR45759.jpg">
-                    <span>Logwood Villa</span>
+                    <span>Logwood Cottage</span>
                 </div>
                 <p>View it all from your very own, personal perch.</p>
             </div>

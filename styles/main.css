@@ -906,8 +906,8 @@ section:has(.index-desc-wrapper):nth-child(2n) .flickity-page-dots .dot {
 }
 
 #antigua-section {
-    background : url("/assets/images/aerials/ROT-Air-DinaToFalmouth-2410JMR80583.jpg") 50% 0 / cover no-repeat;
-    height     : 90vh;
+    background : url("/assets/images/aerials/ROT-Air-HighFalmouth-2410JMR80509.jpg") 50% 0 / cover no-repeat;
+    height     : 95vh;
     display    : flex;
     align-items: flex-end;
 }
