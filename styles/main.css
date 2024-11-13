@@ -1059,6 +1059,16 @@ div#copyright {
     #cottages-img-container>div {
         height: fit-content;
     }
+
+    #antigua-section {
+        height: 50vh;
+    }
+
+    #antigua-section>div {
+        max-width: 100%;
+        width    : 100%;
+        padding  : 36px 48px;
+    }
 }
 
 @media screen and (max-width: 768px) {
