@@ -52,7 +52,7 @@ $("#hamburger-button").on('click', function () {
 })
 
 $(document).ready(function () {
-    setTimeout(() => $("#intro-section-title").fadeToggle(2000), 2000);
+    setTimeout(() => $("#landing-header-section-title").fadeToggle(2000), 2000);
 });
 
 $(".carousel.still.left").flickity({
