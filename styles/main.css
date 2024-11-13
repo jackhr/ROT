@@ -134,6 +134,10 @@ div.inner {
     padding  : 32px var(--general-padding);
 }
 
+#intro-section .index-desc-wrapper {
+    margin-bottom: 48px;
+}
+
 section h2 {
     font-size: 32px;
 }
@@ -246,6 +250,7 @@ header.active #home-img {
     margin         : auto 0;
     font-size      : 24px;
     text-decoration: underline;
+    color          : var(--white);
 }
 
 header a {
@@ -253,12 +258,12 @@ header a {
 }
 
 header.active div.inner {
-    background: var(--white);
-    color     : var(--black);
+    background: var(--black);
+    color     : var(--white);
 }
 
 header.active a {
-    color: var(--black) !important;
+    color: var(--white) !important;
 }
 
 header.active a:hover {
@@ -316,7 +321,7 @@ header div.inner nav {
 
 header.active .hamburger-line,
 html.viewing-hamburger-menu .hamburger-line {
-    background: var(--black);
+    background: var(--white);
 }
 
 html.viewing-hamburger-menu .hamburger-line.one {
@@ -336,8 +341,8 @@ html.viewing-hamburger-menu .hamburger-line.three {
 #hamburger-nav {
     position        : absolute;
     width           : 100vw;
-    background-color: var(--white);
-    color           : var(--secondary);
+    background-color: var(--black);
+    color           : var(--white);
     padding         : 0 48px;
     height          : 0;
     top             : 50vh;
@@ -393,16 +398,16 @@ html.viewing-hamburger-menu #hamburger-nav nav {
     opacity: 1;
 }
 
-#index-page section:not(#intro-section) {
+#index-page section:not(#landing-header-section) {
     padding: 24px 0;
 }
 
-#intro-section {
+#landing-header-section {
     height: 100vh;
     width : 100vw;
 }
 
-#intro-section div.inner {
+#landing-header-section div.inner {
     padding  : 0;
     margin   : 0;
     height   : 100%;
@@ -410,7 +415,7 @@ html.viewing-hamburger-menu #hamburger-nav nav {
     position : relative;
 }
 
-#intro-section video {
+#landing-header-section video {
     position       : absolute;
     width          : 100%;
     height         : 100%;
@@ -418,7 +423,7 @@ html.viewing-hamburger-menu #hamburger-nav nav {
     object-position: center;
 }
 
-#intro-section-title {
+#landing-header-section-title {
     position       : relative;
     margin         : auto;
     font-size      : 54px;
@@ -430,8 +435,8 @@ html.viewing-hamburger-menu #hamburger-nav nav {
     justify-content: center;
 }
 
-#intro-section-title h1,
-#intro-section-title h2 {
+#landing-header-section-title h1,
+#landing-header-section-title h2 {
     text-transform: capitalize;
     font-weight   : normal;
     margin        : 0;
@@ -596,7 +601,7 @@ table tr td:last-child {
     display        : flex;
     align-items    : center;
     padding        : 0 clamp(20px, 6.25vw, 80px);
-    margin-bottom  : 24px;
+    margin-bottom  : 36px;
     justify-content: space-between;
 }
 
@@ -649,14 +654,32 @@ section:has(.index-desc-wrapper):nth-child(2n) .chevron-link {
 }
 
 .carousel.still .carousel-cell {
-    width       : 25%;
-    height      : 29.5vw;
-    margin-right: 20px;
+    width         : 25%;
+    height        : 29.5vw;
+    margin-right  : 20px;
+    flex-direction: column;
+    align-items   : flex-start;
+    gap           : 12px;
 }
 
 .carousel.is-fullscreen .carousel-cell {
     height: 100%;
     width : 100%;
+}
+
+.carousel-img-container {
+    width   : 100%;
+    height  : 100%;
+    display : flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-img-container+span {
+    font-family: var(--primary-font);
+    color      : var(--black);
+    font-weight: 600;
+    font-size  : 18px;
 }
 
 .carousel-cell .carousel-cell-overlay {
@@ -846,13 +869,13 @@ section:has(.index-desc-wrapper):nth-child(2n) .flickity-page-dots .dot {
         pointer-events: all;
     }
 
-    #intro-section div.inner {
+    #landing-header-section div.inner {
         padding        : 36px 40px 36px;
         align-items    : center;
         justify-content: center;
     }
 
-    #intro-section-title h1 {
+    #landing-header-section-title h1 {
         font-size: 64px;
     }
 
@@ -868,21 +891,21 @@ section:has(.index-desc-wrapper):nth-child(2n) .flickity-page-dots .dot {
         --general-padding: 0.75rem;
     }
 
-    #intro-section div.inner {
+    #landing-header-section div.inner {
         padding: 24px;
     }
 
-    #intro-section form {
+    #landing-header-section form {
         max-width       : 350px;
         width           : 100%;
         background-color: rgba(var(--primary-rgb-vals), 0.6);
     }
 
-    #intro-section-title h1 {
+    #landing-header-section-title h1 {
         font-size: 32px;
     }
 
-    #intro-section-title h2 {
+    #landing-header-section-title h2 {
         font-size: 20px;
     }
 
