@@ -919,6 +919,7 @@ section:has(.index-desc-wrapper):nth-child(2n) .flickity-page-dots .dot {
     gap           : 24px;
     display       : flex;
     flex-direction: column;
+    max-width     : 410px;
 }
 
 #antigua-section>div h3,
