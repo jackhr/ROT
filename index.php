@@ -35,7 +35,6 @@ include_once 'includes/header.php';
                 <h3>A variety of experiences</h3>
             </div>
             <div id="meditation-center-carousel" class="carousel still right">
-                <!-- meditation center -->
                 <a class="carousel-cell" href="/meditation-center/">
                     <div class="carousel-img-container">
                         <img src="assets/images/meditation-center/ROT-Day1-2409JMR25650.jpg" alt="Meditation Center">
@@ -50,7 +49,6 @@ include_once 'includes/header.php';
                     </div>
                     <span>Center Your Mind</span>
                 </a>
-                <!-- art studio -->
                 <a class="carousel-cell" href="/art-studio/">
                     <div class="carousel-img-container">
                         <img src="assets/images/events/ROT-Day1-Air4v2-2409JMR80922.jpg" alt="Aerial View">
@@ -65,7 +63,6 @@ include_once 'includes/header.php';
                     </div>
                     <span>Creativity in Nature</span>
                 </a>
-                <!-- cottages -->
                 <a class="carousel-cell" href="/cottages/">
                     <div class="carousel-img-container">
                         <img src="assets/images/cottages/tamarind/ROT-Tamarind-BedArea-2410JMR26632.jpg" alt="Tamarind bed area" title="Tamarind bed area">
@@ -80,8 +77,7 @@ include_once 'includes/header.php';
                     </div>
                     <span>Your Private Haven</span>
                 </a>
-                <!-- cafe -->
-                <a class="carousel-cell" href="/events/">
+                <a class="carousel-cell" href="/cafe/">
                     <div class="carousel-img-container">
                         <img src="assets/images/art-studio/ROT-Lifestyle-Textures-2410JMR49280.jpg" alt="Cafe" title="Cafe">
                         <div class="carousel-cell-overlay">
@@ -95,8 +91,7 @@ include_once 'includes/header.php';
                     </div>
                     <span>Savor Serenity</span>
                 </a>
-                <!-- events -->
-                <a class="carousel-cell" href="/art-studio/">
+                <a class="carousel-cell" href="/events/">
                     <div class="carousel-img-container">
                         <img src="assets/images/events/ROT-Day1-Air4v2-2409JMR80937.jpg" alt="Aerial View">
                         <div class="carousel-cell-overlay">
