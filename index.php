@@ -32,7 +32,7 @@ include_once 'includes/header.php';
         </div>
         <div class="carousel-container">
             <div class="carousel-header">
-                <h3>A variety of experiences</h3>
+                <h3>An assortment of experiences</h3>
             </div>
             <div id="meditation-center-carousel" class="carousel still right">
                 <a class="carousel-cell" href="/meditation-center/">
@@ -109,78 +109,28 @@ include_once 'includes/header.php';
         </div>
     </div>
 </section>
-<section id="art-studio-section" class="still-carousel-section">
+<section id="cottages-section">
     <div class="inner">
-        <h2>Creativity in Nature</h2>
-        <div class="index-desc-wrapper">
-            <p>Let your creativity flow in our art studio, a place designed to inspire and invite exploration. With panoramic views of lush greenery and ample natural light flooding through large windows, the studio serves as a canvas itself—reflecting the beauty of the Caribbean landscape. Whether you paint, sculpt, or sketch, you’ll find that creativity comes naturally in this space.</p>
-            <p>Embrace the freedom to experiment, express your inner world, and let your imagination run free, inspired by the tranquility around you. The studio also hosts guided art workshops, perfect for those wanting to try their hand at something new while meeting like-minded individuals.</p>
-        </div>
-        <div class="section-divider"></div>
-        <div class="carousel-container">
-            <div class="carousel-header">
-                <h3>Art Studio</h3>
-                <a class="chevron-link" href="/art-studio/">
-                    <span>See more</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
-                        <path d="m9 18 6-6-6-6" />
-                    </svg>
-                </a>
+        <h3>A variety of cottages</h3>
+        <div id="cottages-img-container">
+            <div>
+                <div>
+                    <img src="/assets/images/cottages/logwood/ROT-Logwood-BedArea-2410JMR45834.jpg">
+                    <span>Logwood Villa</span>
+                </div>
+                <p>Allow your mind to wind down, and your feet to rest up.</p>
             </div>
-            <div class="carousel still left">
-                <a class="carousel-cell" href="/art-studio/">
-                    <span class="img-title">Aerial View</span>
-                    <img src="assets/images/events/ROT-Day1-Air4v2-2409JMR80937.jpg" alt="Aerial View">
-                    <div class="carousel-cell-overlay">
-                        <div class="chevron-link">
-                            <span>See more</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
-                                <path d="m9 18 6-6-6-6" />
-                            </svg>
-                        </div>
-                    </div>
-                </a>
-                <a class="carousel-cell" href="/art-studio/">
-                    <span class="img-title">Aerial View</span>
-                    <img src="assets/images/events/ROT-Day1-Air4v2-2409JMR80922.jpg" alt="Aerial View">
-                    <div class="carousel-cell-overlay">
-                        <div class="chevron-link">
-                            <span>See more</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
-                                <path d="m9 18 6-6-6-6" />
-                            </svg>
-                        </div>
-                    </div>
-                </a>
-                <a class="carousel-cell" href="/art-studio/">
-                    <span class="img-title">Aerial View</span>
-                    <img src="assets/images/events/ROT-Day1-Air4v2-2409JMR80031.jpg" alt="Aerial View">
-                    <div class="carousel-cell-overlay">
-                        <div class="chevron-link">
-                            <span>See more</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
-                                <path d="m9 18 6-6-6-6" />
-                            </svg>
-                        </div>
-                    </div>
-                </a>
-                <a class="carousel-cell" href="/art-studio/">
-                    <span class="img-title">Aerial View</span>
-                    <img src="assets/images/events/ROT-Day1-Air3v2-2409JMR80748.jpg" alt="Aerial View">
-                    <div class="carousel-cell-overlay">
-                        <div class="chevron-link">
-                            <span>See more</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right">
-                                <path d="m9 18 6-6-6-6" />
-                            </svg>
-                        </div>
-                    </div>
-                </a>
+            <div>
+                <div>
+                    <img src="/assets/images/cottages/logwood/ROT-Logwood-Verandah-2410JMR45759.jpg">
+                    <span>Logwood Villa</span>
+                </div>
+                <p>View it all from your very own, personal perch.</p>
             </div>
         </div>
     </div>
 </section>
-<section id="cottages-section" class="still-carousel-section">
+<section id="antigua-section" class="still-carousel-section">
     <div class="inner">
         <h2>Your Private Haven</h2>
         <div class="index-desc-wrapper">
