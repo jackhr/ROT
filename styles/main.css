@@ -905,6 +905,35 @@ section:has(.index-desc-wrapper):nth-child(2n) .flickity-page-dots .dot {
     left  : clamp(20px, 6.25vw, 80px) !important;
 }
 
+#antigua-section {
+    background : url("/assets/images/aerials/ROT-Air-DinaToFalmouth-2410JMR80583.jpg") 50% 0 / cover no-repeat;
+    height     : 90vh;
+    display    : flex;
+    align-items: flex-end;
+}
+
+#antigua-section>div {
+    background    : #00000080;
+    color         : var(--white);
+    padding       : 48px;
+    gap           : 24px;
+    display       : flex;
+    flex-direction: column;
+}
+
+#antigua-section>div h3,
+#antigua-section>div p {
+    margin     : 0;
+    font-weight: bold;
+}
+
+#antigua-section>div .chevron-link {
+    color       : var(--white);
+    border-color: var(--white);
+    width       : max-content;
+    cursor      : pointer;
+}
+
 @media screen and (max-width: 991px) {
     :root {
         --nav-height: 110px;
